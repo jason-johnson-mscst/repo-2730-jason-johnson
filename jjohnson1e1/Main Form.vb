@@ -17,7 +17,7 @@ Public Class frmBonus
         txtId.Focus()
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub btnPrint_Click(sender As Object, e As EventArgs) Handles btnPrint.Click
         ' Set print preview to remove button view for print.
         Me.Height = Me.Height - 75
         PrintForm1.PrintAction = Printing.PrintAction.PrintToPreview

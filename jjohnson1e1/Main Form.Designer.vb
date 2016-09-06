@@ -32,7 +32,7 @@ Partial Class frmBonus
         Me.txtId = New System.Windows.Forms.TextBox()
         Me.txtAnnualSales = New System.Windows.Forms.TextBox()
         Me.btnCalc = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnPrint = New System.Windows.Forms.Button()
         Me.btnClear = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.PrintForm1 = New Microsoft.VisualBasic.PowerPacks.Printing.PrintForm(Me.components)
@@ -108,14 +108,14 @@ Partial Class frmBonus
         Me.btnCalc.Text = "&Calculate"
         Me.btnCalc.UseVisualStyleBackColor = True
         '
-        'Button1
+        'btnPrint
         '
-        Me.Button1.Location = New System.Drawing.Point(98, 178)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(79, 23)
-        Me.Button1.TabIndex = 8
-        Me.Button1.Text = "&Print"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnPrint.Location = New System.Drawing.Point(98, 178)
+        Me.btnPrint.Name = "btnPrint"
+        Me.btnPrint.Size = New System.Drawing.Size(79, 23)
+        Me.btnPrint.TabIndex = 8
+        Me.btnPrint.Text = "&Print"
+        Me.btnPrint.UseVisualStyleBackColor = True
         '
         'btnClear
         '
@@ -150,7 +150,7 @@ Partial Class frmBonus
         Me.ClientSize = New System.Drawing.Size(372, 231)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnClear)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnPrint)
         Me.Controls.Add(Me.btnCalc)
         Me.Controls.Add(Me.txtAnnualSales)
         Me.Controls.Add(Me.txtId)
@@ -175,7 +175,7 @@ Partial Class frmBonus
     Friend WithEvents txtId As TextBox
     Friend WithEvents txtAnnualSales As TextBox
     Friend WithEvents btnCalc As Button
-    Friend WithEvents Button1 As Button
+    Friend WithEvents btnPrint As Button
     Friend WithEvents btnClear As Button
     Friend WithEvents btnExit As Button
     Friend WithEvents PrintForm1 As PowerPacks.Printing.PrintForm
