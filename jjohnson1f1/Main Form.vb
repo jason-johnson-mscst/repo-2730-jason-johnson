@@ -38,5 +38,4 @@ Public Class Form1
         PrintForm1.Print()
         Me.Height = Me.Height + 50
     End Sub
-
 End Class
